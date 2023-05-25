@@ -1,48 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youtube.com clone</title>
-    <link rel="stylesheet" href="./youtube.css"/>
-</head>
-<body>
-    <input class="search-bar" type="text" placeholder="search">
-    <div class="video-preview">
-        <div>
-            <img class="thumbnail" src="thumbnails/coding.webp" width= "359" >
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Youtube.com clone</title>
+        <link rel="stylesheet" href="./index.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="search-bar">
+                    <input type="text" placeholder="search" />
+                </div>
+            </div>
+            <div class="content">
+                <div class="menu">
+                    <ul class="menu-items">
+                        <li class="items">
+                            <a href=""><i class="fa-solid fa-house"></i>Home</a>
+                        </li>
+                        <li class="items">
+                            <a href="">
+                                <i class="fa-brands fa-youtube"></i>Short
+                            </a>
+                        </li>
+                        <li class="items">
+                            <a href="">
+                                <i class="fa-solid fa-subscript"></i>Subscribe
+                            </a>
+                        </li>
+                        <li class="items">
+                            <a href="">
+                                <i class="fa-solid fa-music"></i>Yt Music</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div class="videos">
+                    <div class="video-preview">
+                        <div class="thumbnail">
+                            <img src="thumbnails/coding.webp" width="359" />
+                        </div>
+                        <div class="info">
+                            <div class="channel-icon">
+                                <img src="icons/coding.jpg" />
+                            </div>
+                            <div class="channel-info" class="channelinfo-text">
+                                <p class="video-title">
+                                    Learning <strong>html and css</strong> for
+                                    <strong>placement</strong> or
+                                    <strong>freelancing</strong>
+                                </p>
+                                <p class="author">Superdev</p>
+                                <p class="stats">
+                                    3.4m views &#45; 6 months ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-preview">
+                        <div class="thumbnail">
+                            <img
+                                src="./thumbnails/periphery thumbnail.webp"
+                                width="359"
+                            />
+                        </div>
+                        <div class="info">
+                            <div class="channel-icon">
+                                <img src="icons/coding.jpg" />
+                            </div>
+                            <div class="channel-info" class="channelinfo-text">
+                                <p class="video-title">
+                                    Learning <strong>html and css</strong> for
+                                    <strong>placement</strong> or
+                                    <strong>freelancing</strong>
+                                </p>
+                                <p class="author">Superdev</p>
+                                <p class="stats">
+                                    3.4m views &#45; 6 months ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-preview">
+                        <div class="thumbnail">
+                            <img src="./thumbnails/wildfire.webp" width="359" />
+                        </div>
+                        <div class="info">
+                            <div class="channel-icon">
+                                <img src="icons/coding.jpg" />
+                            </div>
+                            <div class="channel-info" class="channelinfo-text">
+                                <p class="video-title">
+                                    Learning <strong>html and css</strong> for
+                                    <strong>placement</strong> or
+                                    <strong>freelancing</strong>
+                                </p>
+                                <p class="author">Superdev</p>
+                                <p class="stats">
+                                    3.4m views &#45; 6 months ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-preview">
+                        <div class="thumbnail">
+                            <img
+                                src="thumbnails/coding and chilling.webp"
+                                width="359"
+                            />
+                        </div>
+                        <div class="info">
+                            <div class="channel-icon">
+                                <img src="icons/coding.jpg" />
+                            </div>
+                            <div class="channel-info" class="channelinfo-text">
+                                <p class="video-title">
+                                    Learning <strong>html and css</strong> for
+                                    <strong>placement</strong> or
+                                    <strong>freelancing</strong>
+                                </p>
+                                <p class="author">Superdev</p>
+                                <p class="stats">
+                                    3.4m views &#45; 6 months ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer -->
+            <div class="footer"></div>
         </div>
-        <div class="channel-icon">
-            <img class="icon-icon" src="icons/coding.jpg">
-        </div>
-        <div class="channel-info" class="channelinfo-text">
-            <p class="video-title">
-                Learning <strong>html and css</strong> for <strong>placement</strong> or <strong>freelancing</strong> 
-            </p>
-            <p class="author">
-               Superdev
-            </p>
-            <p class="stats">
-               3.4m views &#45; 6 months ago
-            </p>
-        </div> 
-    </div>
-    <div class="video-preview">  
-        
-        <img class="thumbnail" src="thumbnails/wildfire.webp">
-         <p class="video-title">Periphery zigaurus playthrough
-                   
-        </p>
-        <p class="artist">
-           Periphery
-        </p>
-        <p class="stats">
-        500k views &#45; three days ago
-        </p>
-    </div>
-         
-    
-    
-</body>
+    </body>
 </html>
