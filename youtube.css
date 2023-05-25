@@ -1,5 +1,5 @@
 .thumbnail{
-width: 300px;
+width: 359px;
 object-fit: contain;
 display: block;
 }
@@ -9,13 +9,37 @@ display: block;
     margin-left: 12px;
     display: block;
 }
-.video-title{
-  width: 500px;  
-}
+
 .video-preview{
     width: 300px;
     display: inline-block;
     vertical-align: top;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
+.video-title{
+  margin-left: 48px;
+}
+
+.author{
+  margin-left: 48px;
+}
+.stats{
+  margin-left: 48px;
+}
+.channel-icon{
+  display: inline-block;
+  width: 15px;
+  vertical-align: top;
+  object-fit: contain;
+
+}
+
+.channel-info{
+  display: inline-block;
+  width: 200px;
+}
+
+.icon-icon{
+  width: 100px;
+}
