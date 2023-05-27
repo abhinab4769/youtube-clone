@@ -1,6 +1,14 @@
 {
-  "dependencies": {
-    "express": "^4.18.2",
-    "node-media-server": "^2.5.0"
-  }
+    "name": "server",
+    "version": "1.0.0",
+    "description": "server for live music host",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "arka jyoti adhikary",
+    "license": "ISC",
+    "dependencies": {
+        "nodemon": "^2.0.22"
+    }
 }
