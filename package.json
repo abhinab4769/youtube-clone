@@ -2,13 +2,15 @@
     "name": "server",
     "version": "1.0.0",
     "description": "server for live music host",
-    "main": "server.js",
+    "main": "app.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon app.js"
     },
     "author": "arka jyoti adhikary",
     "license": "ISC",
     "dependencies": {
+        "node-media-server": "^2.5.0",
         "nodemon": "^2.0.22"
     }
 }
