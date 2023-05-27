@@ -1,126 +1,126 @@
 * {
-    font-family: "Open Sans", sans-serif;
-    color: #2b2d42;
+  font-family: "Open Sans", sans-serif;
+  color: #2b2d42;
 }
 
 .container {
-    width: 100%;
+  width: 100%;
 }
 .header {
-    padding: 0 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    height: 5rem;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 5rem;
 }
 .title > h1 {
-    font-weight: bold;
+  font-weight: bold;
 }
 .title > h1 > span {
-    color: #d90429;
-    font-weight: bolder;
-    font-size: 50px;
+  color: #d90429;
+  font-weight: bolder;
+  font-size: 50px;
 }
 .content {
-    width: 100%;
-    display: flex;
-    justify-content: start;
+  width: 100%;
+  display: flex;
+  justify-content: start;
 }
 .footer {
-    width: 100%;
+  width: 100%;
 }
 
 .menu {
-    width: 10rem;
-    /* height: 100vh; */
+  width: 10rem;
+  /* height: 100vh; */
 }
 
 .menu-items {
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 .menu-items > li {
-    text-align: start;
-    list-style: none;
-    padding: 1rem 0;
+  text-align: start;
+  list-style: none;
+  padding: 1rem 0;
 }
 .menu-items > li > a {
-    color: #2b2d42;
-    font-weight: bold;
-    text-decoration: none;
+  color: #2b2d42;
+  font-weight: bold;
+  text-decoration: none;
 }
 .menu-items > li > a > i {
-    padding-right: 1rem;
+  padding-right: 1rem;
 }
 /* create the search bar class to adjust search input in the middle */
 .search-bar {
-    display: flex;
-    align-items: center;
-    width: 30rem;
-    border-radius: 20px;
-    margin-left: 30rem;
-    border: solid 0.1rem black;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  width: 30rem;
+  border-radius: 20px;
+  margin-left: 30rem;
+  border: solid 0.1rem black;
+  align-items: center;
 }
 .search-bar > input {
-    border: none;
-    width: 100%;
-    padding: 0.5rem 0;
-    font-size: 15px;
-    margin-left: 12px;
-    display: block;
+  border: none;
+  width: 100%;
+  padding: 0.5rem 0;
+  font-size: 15px;
+  margin-left: 12px;
+  display: block;
 }
 .search-bar > input:focus {
-    outline: none;
+  outline: none;
 }
 
 .search-bar > i {
-    margin: 0 1rem;
+  margin: 0 1rem;
 }
 .videos {
-    display: flex;
+  display: flex;
 }
 .video-preview {
-    margin: 1rem;
-    width: 25rem;
+  margin: 1rem;
+  width: 25rem;
 }
 .video-preview:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
 
 .thumbnail {
-    width: 100%;
-    object-fit: contain;
-    display: block;
+  width: 100%;
+  object-fit: contain;
+  display: block;
 }
-.thumbnail > img {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 5px;
-    width: 100%;
+.thumbnail > a > img {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  width: 100%;
 }
 
 .info {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .channel-icon {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 .channel-icon > img {
-    height: 3.5rem;
-    border-radius: 50%;
+  height: 3.5rem;
+  border-radius: 50%;
 }
 .channel-info {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 .video-title {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    font-size: large;
-    font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: large;
+  font-weight: bold;
 }
 
 .stats {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }

@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+}
+
+.header {
+  height: 5rem;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.video > iframe {
+  height: 25rem;
+  width: 45rem;
+}
+
+.title > p {
+  font-size: larger;
+  font-weight: bold;
+}
